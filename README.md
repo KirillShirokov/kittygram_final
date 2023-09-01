@@ -20,7 +20,6 @@ docker compose -f docker-compose.production.yml exec backend python manage.py co
 docker compose -f docker-compose.production.yml exec backend cp -r /app/collected_static/. /backend_static/static/
 
 ```
-  
 - Перезагрузите конфигурацию Nginx
 ```
 sudo systemctl reload nginx
@@ -37,7 +36,8 @@ sudo systemctl reload nginx
   - USER (Логин вашего сервера)
 - Замените в файле docker-compose.ptoduct.yml наименования образов в соответвии с вагим логином на DockerHub(Например your_name/kittygram_backend)
 - Далее git add ./ git commit/ git push
-Ваш Git Action проведет тесты, соберет образы и отправит их на репозиторий, задеплоит ваш проект на сервер и даже уведомит вас в стучае успеха в телеграм. 
+Ваш Git Action проведет тесты, соберет образы и отправит их на репозиторий, задеплоит ваш проект на сервер и даже уведомит вас в стучае успеха в телеграм.
+
 ## Технологии:
 **Docker Compose**
 **Docker**
