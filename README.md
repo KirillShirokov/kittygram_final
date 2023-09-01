@@ -5,8 +5,7 @@
 
  **Данный репозиторий имеет два файла docker-compose.yml и docker-compose.production.yaml которые позволяют развернуть проект как на локальном, так и на удаленном сервере**
 
-![](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
-![](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+![KITTYGRAM](https://github.com/KirillShirokov/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ##  Установка и настройка проекта
 **(Данное описание подразумевает, что на вашем сервере установлен Git, настроен фаерволл, безопасность и получен и настроен SSL -сертификат, пакетный менеджер npm, создана ветка на репозиторий kittygram_final)**
