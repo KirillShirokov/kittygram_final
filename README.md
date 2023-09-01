@@ -1,11 +1,11 @@
 # Kittygram
+![KITTYGRAM](https://github.com/KirillShirokov/kittygram_final/actions/workflows/main.yml/badge.svg)
 Если вы любите делиться котиками, то вы на правильном пути. Данный проект позволяет авторизованным пользователям публиковать фото с именами и данными вашего любимого питомца. 
  Готовый проект можно посмотреть здесь
  https://kittygram-yandex.ddns.net
 
  **Данный репозиторий имеет два файла docker-compose.yml и docker-compose.production.yaml которые позволяют развернуть проект как на локальном, так и на удаленном сервере**
 
-![KITTYGRAM](https://github.com/KirillShirokov/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ##  Установка и настройка проекта
 **(Данное описание подразумевает, что на вашем сервере установлен Git, настроен фаерволл, безопасность и получен и настроен SSL -сертификат, пакетный менеджер npm, создана ветка на репозиторий kittygram_final)**
